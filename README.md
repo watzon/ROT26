@@ -1,6 +1,6 @@
 # ROT26
 
-This is a Crystal implementation of the ROT26 encryption algorithm based on @jD91mZM2's rust project at [https://github.com/jD91mZM2/rot26](jD91mZM2/rot26).
+This is a Crystal implementation of the ROT26 encryption algorithm based on @jD91mZM2's rust project at [jD91mZM2/rot26](https://github.com/jD91mZM2/rot26).
 
 > ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.
 > Instead of only rotating 13 places, ROT26 rotates twice as many characters in the alphabet and is therefore twice as secure.
