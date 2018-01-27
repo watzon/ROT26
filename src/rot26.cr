@@ -26,7 +26,7 @@ module ROT26
   def self.decrypt_any(input : String, amount : Int32)
     input.chars.map do |c|
       if 'a' <= c <= 'z'
-        (((c.ord - 'a'.ord + ROTATE - amount) % ROTATE) + 97).chr
+        (((c.ord - 'a'.ord + ROTATE - amount) % ROTATE) + 'a'.ord).chr
       elsif 'A' <= c <= 'Z'
         (((c.ord - 'A'.ord + ROTATE - amount) % ROTATE) + 'A'.ord).chr
       else
